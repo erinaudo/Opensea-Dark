@@ -1,0 +1,223 @@
+.btn-main {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #15b2e5;
+  color: white;
+  width: 167px;
+}
+
+.btn-main-sm {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #15b2e5;
+  color: white;
+}
+
+.btn-sec {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  border: #15b2e5 solid 1px;
+  background-color: #242529;
+  color: #A5A8B3;
+  width: 167px;
+}
+
+.icon-nav i {
+  color: rgba(4, 17, 29, 0.7490196078);
+  font-size: 32px;
+}
+
+.bar-nav {
+  font-size: 16px;
+  font-weight: 600;
+}
+.bar-nav li {
+  list-style: none;
+  display: inline;
+}
+
+.notable-drops {
+  height: 578px;
+  width: 356px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/notable-drops-bg.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.notable-drops .live {
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.notable-drops .live .text {
+  background-color: rgba(61, 61, 61, 0.322);
+  backdrop-filter: blur(6px);
+  color: white;
+  padding: 5px 10px;
+  border: white solid 2px;
+  border-radius: 15px;
+  min-height: fit-content;
+  font-weight: 600;
+}
+.notable-drops .tex-drops {
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 490px;
+}
+.notable-drops .tex-drops .tittle {
+  font-weight: 700;
+}
+.notable-drops .tex-drops .description {
+  font-style: italic;
+}
+
+.item-colection {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  height: 88px;
+  padding: 1rem;
+  width: fit-content;
+}
+.item-colection .position {
+  font-size: 16px;
+  font-weight: 700;
+  color: #04111d;
+  margin-right: 8px;
+}
+.item-colection .logo img {
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 6px;
+}
+.item-colection .data {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.item-colection .data .name-item {
+  font-size: 14px;
+  font-weight: 600;
+}
+.item-colection .data .floor-price {
+  display: flex;
+  min-height: fit-content;
+}
+.item-colection .data .floor-price p {
+  font-size: 12px;
+  color: #707a83;
+}
+.item-colection .data .floor-price .price {
+  font-size: 14px;
+  font-weight: 600;
+  color: #707a83;
+}
+.item-colection .data .floor-price .price img {
+  height: 14px;
+}
+.item-colection .balance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 10px 0 30px;
+}
+.item-colection .balance .variation {
+  font-size: 14px;
+  color: red;
+}
+.item-colection .balance .price-balance img {
+  height: 14px;
+}
+.item-colection .balance .price-balance span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #707a83;
+}
+
+div.item-colection:hover {
+  box-shadow: 0px 0px 15px rgba(112, 122, 131, 0.4745098039);
+  cursor: pointer;
+}
+
+.bar-top {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  border: black solid 1px;
+  padding: 8px 15px;
+  background-color: #242529;
+}
+.bar-top .logo-link {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.bar-top .logo-link img {
+  height: 40px;
+  padding-right: 8px;
+}
+.bar-top .logo-link .opensea a {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.bar-top .search {
+  display: flex;
+  align-items: center;
+  background-color: #494b53;
+  width: fit-content;
+  border-radius: 10px;
+}
+.bar-top .search i {
+  color: #adb0bb;
+  font-size: 20px;
+  padding: 0 5px 0 10px;
+}
+.bar-top .search #searcher {
+  background: none;
+  border: none;
+  width: 300px;
+  color: #494b53;
+  font-weight: 500;
+}
+.bar-top .bar-nav {
+  color: #adb0bb;
+  display: flex;
+  margin-left: 100px;
+}
+.bar-top .bar-nav ul {
+  margin: 0;
+}
+.bar-top .bar-nav ul li {
+  margin-right: 20px;
+}
+.bar-top .icon-nav {
+  margin-left: 100px;
+}
+.bar-top .icon-nav i {
+  color: #adb0bb;
+  margin-left: 20px;
+}
+
+.discover {
+  display: flex !important;
+}
+
+/*# sourceMappingURL=styles%20css.map */
