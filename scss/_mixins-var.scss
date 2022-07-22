@@ -1,0 +1,35 @@
+$color-main: #15b2e5;
+$color-bg-sec: #242529;
+$color-sec: #494b53;
+$color-ligth: #adb0bb;
+$color-text: white;
+
+@mixin btn-base {
+    padding: 18px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@mixin btn-base-main {
+    border: none;
+    background-color: $color-main;
+    color: white;
+    transition: box-shadow 0.2s;
+    &:hover{
+        cursor: pointer;
+        box-shadow: 0 0 8px #8fd6ee;
+    }
+}
+
+@mixin btn-base-sec {
+    border: $color-main solid 1px;
+    background-color: #242529;
+    color: #A5A8B3;
+    transition: box-shadow 0.2s, color 0.2s;
+    &:hover{
+        color: $color-text;
+        box-shadow: 0 0 4px #8fd6ee;
+    }
+}
